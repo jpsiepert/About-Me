@@ -1,0 +1,72 @@
+html, body {
+	height: 100%;
+	width: 100%;
+}
+
+.container {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	align-items: center;
+	justify-direction: space-between;
+
+}
+
+.background {
+	background-image: url(https://scontent-b-ord.xx.fbcdn.net/hphotos-xpf1/v/t1.0-9/20361_260248571630_5638202_n.jpg?oh=a8e88afe3f9e7af450e9f3d80aa0c9e1&oe=5492813D);
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	margin: -60px -60px;
+	padding-right: 30px;
+	border: 2px solid black;
+}
+
+.infobox {
+	background-color: rgba(252, 250, 252, .4);
+	border: 2px solid black;
+	height: 600px;
+	width: 800px;
+	margin: 50px 225px;
+	margin-top: 90px;  
+	flex-wrap: wrap;
+	text-align: center;
+
+}
+
+.infobox h1 {
+	font-weight: bold;
+	color: #161669;
+	font-family: raleway;
+}
+
+.infobox p {
+	font-family: raleway;
+	color: #09574A;
+}
+
+.books {
+	width: 150px;
+	height: 150px;
+}
+
+.mail{	
+	width: 50px;
+	height: 50px;
+}
+
+footer {
+	display: flex-wrap; 	  		
+}
+
+.fb-follow {
+	float:left;
+	padding-right: 10px;
+	margin-bottom: 10px;
+}
+
+.mailto {
+	float:right;
+}

@@ -1,0 +1,43 @@
+html, body {
+	width: 100%;
+	height: 100%;
+}
+
+.background {
+	background-image: url(http://viewhdwall.com/wp-content/uploads/2014/08/Awesome-Inspirational-Thought-Desktop-Wallpaper.jpg);
+	width: 1400px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	margin: -60px -60px;
+	padding-right: 30px;
+	border: 2px solid black;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	align-items: center;
+	justify-direction: space-between;
+	height: 1000px;
+	position: fixed;
+}
+
+
+
+.button {
+	background-color: #462873;
+    font-size: 30px;
+    box-sizing: padding;
+    text-align: center;
+    height: 100px;
+    width: 100px;
+	transition: background .2s ease;
+	text-align: center;
+	margin: 100px;
+}
+
+.button a {
+	color: #3399ff
+}
+.button:hover {
+	background: #A30000 ;
+}
