@@ -13,6 +13,18 @@ html, body {
 
 }
 
+.blog-container {
+	background-image: url(https://unsplash.imgix.net/42/KgqDYXRLSeyeSbhxYTjK_lookingAtTheArch.jpg?q=75&fm=jpg&auto=format&s=10eb0908ba2ff03b7589bf9cebf06229);
+	background-size: cover;
+	text-align: center;
+	margin: -15px;
+	padding: 10px;
+}
+
+#blog-text{
+	color: black;
+}
+
 .background {
 	background-image: url(https://scontent-b-ord.xx.fbcdn.net/hphotos-xpf1/v/t1.0-9/20361_260248571630_5638202_n.jpg?oh=a8e88afe3f9e7af450e9f3d80aa0c9e1&oe=5492813D);
 	width: 100%;
@@ -25,10 +37,8 @@ html, body {
 }
 
 .infobox {
-	background-color: rgba(252, 250, 252, .4);
+	background-color: rgba(252, 250, 252, .6);
 	border: 2px solid black;
-	height: 600px;
-	width: 800px;
 	margin: 50px 225px;
 	margin-top: 90px;  
 	flex-wrap: wrap;
@@ -44,7 +54,7 @@ html, body {
 
 .infobox p {
 	font-family: raleway;
-	color: #09574A;
+	color: #07233F;
 }
 
 .books {
@@ -52,21 +62,28 @@ html, body {
 	height: 150px;
 }
 
-.mail{	
-	width: 50px;
-	height: 50px;
+.fa {
+	width: 65px;
+	font-size: 50px;
+	margin-top: 10px;
+	color: #0C0880;
 }
+
 
 footer {
 	display: flex-wrap; 	  		
 }
 
-.fb-follow {
-	float:left;
-	padding-right: 10px;
-	margin-bottom: 10px;
+.blog-posts{
+	color: #0C447C;
+}
+a:hover{
+	color: #FF0080;
 }
 
-.mailto {
-	float:right;
+a:link{
+	text-decoration: none;
+}
+a:visited{
+	color: #7C0C7C;
 }
